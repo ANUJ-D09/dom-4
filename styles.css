@@ -1,0 +1,38 @@
+body {
+    background: url(./images/image.jpg) no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+    font-size: 70px;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    height: 65px;
+    width: 65px;
+    font-size: 2rem;
+    border-radius: 15%;
+    color: white;
+}
+
+#startstop {
+    background-color: #28a745;
+    /* Lighter, fresh green */
+}
+
+#reset {
+    background-color: #dc3545;
+    /* Deep red */
+}
